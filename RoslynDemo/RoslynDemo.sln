@@ -1,0 +1,143 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockAnalyzer", "BlockAnalyzer\BlockAnalyzer\BlockAnalyzer\BlockAnalyzer.csproj", "{C1AF2303-39DC-45A7-8660-071DC0E2E6EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynDemo.Vsix", "RoslynDemo.Vsix\RoslynDemo.Vsix.csproj", "{BB04C83C-58D5-494B-B1E6-7DD6C7D7EE61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntaxAnalyzer", "SyntaxAnalyzer\SyntaxAnalyzer\SyntaxAnalyzer\SyntaxAnalyzer.csproj", "{305BCA1E-7306-451C-B4A4-49673A09AA87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockAnalyzerTest", "BlockAnalyzerTest\BlockAnalyzerTest\BlockAnalyzerTest.csproj", "{F74EE8DA-B92D-4B49-88F1-FB8EF1DF406D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApplications", "TestApplications", "{62488930-4B8C-4545-9584-E1DC749F7F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntaxAnalyzerTest", "SyntaxAnalyzerTest\SyntaxAnalyzerTest\SyntaxAnalyzerTest.csproj", "{89C0A8D4-D301-4789-BE22-0CFD7BDEAFA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntaxAnalyzer.Test", "SyntaxAnalyzer\SyntaxAnalyzer\SyntaxAnalyzer.Test\SyntaxAnalyzer.Test.csproj", "{F400D0EF-9744-4D35-96F4-50A7CCDF5E97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRefactoringTest", "XmlRefactoringTest\XmlRefactoringTest\XmlRefactoringTest.csproj", "{C0EC9063-C50C-4BCF-A09E-A7D13060E842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRefactoring", "XmlRefactoring\XmlRefactoring.csproj", "{89B56F38-0536-415C-93DF-826B04A223FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiRefactoring", "MultiRefactoring\MultiRefactoring\MultiRefactoring\MultiRefactoring.csproj", "{213B1E46-7AA6-4230-88AF-4DBADEA594E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiRefactoringTest", "MultiRefactoringTest\MultiRefactoringTest\MultiRefactoringTest.csproj", "{61ACD0B4-2E98-4D90-A9F6-EDC8536E4457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1AF2303-39DC-45A7-8660-071DC0E2E6EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AF2303-39DC-45A7-8660-071DC0E2E6EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AF2303-39DC-45A7-8660-071DC0E2E6EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AF2303-39DC-45A7-8660-071DC0E2E6EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB04C83C-58D5-494B-B1E6-7DD6C7D7EE61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB04C83C-58D5-494B-B1E6-7DD6C7D7EE61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB04C83C-58D5-494B-B1E6-7DD6C7D7EE61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB04C83C-58D5-494B-B1E6-7DD6C7D7EE61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305BCA1E-7306-451C-B4A4-49673A09AA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305BCA1E-7306-451C-B4A4-49673A09AA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305BCA1E-7306-451C-B4A4-49673A09AA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305BCA1E-7306-451C-B4A4-49673A09AA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74EE8DA-B92D-4B49-88F1-FB8EF1DF406D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74EE8DA-B92D-4B49-88F1-FB8EF1DF406D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74EE8DA-B92D-4B49-88F1-FB8EF1DF406D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74EE8DA-B92D-4B49-88F1-FB8EF1DF406D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89C0A8D4-D301-4789-BE22-0CFD7BDEAFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89C0A8D4-D301-4789-BE22-0CFD7BDEAFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89C0A8D4-D301-4789-BE22-0CFD7BDEAFA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89C0A8D4-D301-4789-BE22-0CFD7BDEAFA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F400D0EF-9744-4D35-96F4-50A7CCDF5E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F400D0EF-9744-4D35-96F4-50A7CCDF5E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F400D0EF-9744-4D35-96F4-50A7CCDF5E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F400D0EF-9744-4D35-96F4-50A7CCDF5E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EC9063-C50C-4BCF-A09E-A7D13060E842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EC9063-C50C-4BCF-A09E-A7D13060E842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EC9063-C50C-4BCF-A09E-A7D13060E842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EC9063-C50C-4BCF-A09E-A7D13060E842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B56F38-0536-415C-93DF-826B04A223FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B56F38-0536-415C-93DF-826B04A223FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B56F38-0536-415C-93DF-826B04A223FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B56F38-0536-415C-93DF-826B04A223FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213B1E46-7AA6-4230-88AF-4DBADEA594E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213B1E46-7AA6-4230-88AF-4DBADEA594E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213B1E46-7AA6-4230-88AF-4DBADEA594E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213B1E46-7AA6-4230-88AF-4DBADEA594E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61ACD0B4-2E98-4D90-A9F6-EDC8536E4457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61ACD0B4-2E98-4D90-A9F6-EDC8536E4457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61ACD0B4-2E98-4D90-A9F6-EDC8536E4457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61ACD0B4-2E98-4D90-A9F6-EDC8536E4457}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F74EE8DA-B92D-4B49-88F1-FB8EF1DF406D} = {62488930-4B8C-4545-9584-E1DC749F7F99}
+		{89C0A8D4-D301-4789-BE22-0CFD7BDEAFA0} = {62488930-4B8C-4545-9584-E1DC749F7F99}
+		{C0EC9063-C50C-4BCF-A09E-A7D13060E842} = {62488930-4B8C-4545-9584-E1DC749F7F99}
+		{61ACD0B4-2E98-4D90-A9F6-EDC8536E4457} = {62488930-4B8C-4545-9584-E1DC749F7F99}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jlattimer.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = BlockAnalyzer\\BlockAnalyzer\\BlockAnalyzer\\BlockAnalyzer.csproj
+		SccProjectName0 = BlockAnalyzer/BlockAnalyzer/BlockAnalyzer
+		SccAuxPath0 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath0 = BlockAnalyzer\\BlockAnalyzer\\BlockAnalyzer
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = RoslynDemo.Vsix\\RoslynDemo.Vsix.csproj
+		SccProjectName1 = RoslynDemo.Vsix
+		SccAuxPath1 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath1 = RoslynDemo.Vsix
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = SyntaxAnalyzer\\SyntaxAnalyzer\\SyntaxAnalyzer\\SyntaxAnalyzer.csproj
+		SccProjectName2 = SyntaxAnalyzer/SyntaxAnalyzer/SyntaxAnalyzer
+		SccAuxPath2 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath2 = SyntaxAnalyzer\\SyntaxAnalyzer\\SyntaxAnalyzer
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = BlockAnalyzerTest\\BlockAnalyzerTest\\BlockAnalyzerTest.csproj
+		SccProjectTopLevelParentUniqueName3 = RoslynDemo.sln
+		SccProjectName3 = BlockAnalyzerTest/BlockAnalyzerTest
+		SccAuxPath3 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath3 = BlockAnalyzerTest\\BlockAnalyzerTest
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = SyntaxAnalyzerTest\\SyntaxAnalyzerTest\\SyntaxAnalyzerTest.csproj
+		SccProjectTopLevelParentUniqueName4 = RoslynDemo.sln
+		SccProjectName4 = SyntaxAnalyzerTest/SyntaxAnalyzerTest
+		SccAuxPath4 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath4 = SyntaxAnalyzerTest\\SyntaxAnalyzerTest
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = SyntaxAnalyzer\\SyntaxAnalyzer\\SyntaxAnalyzer.Test\\SyntaxAnalyzer.Test.csproj
+		SccProjectName5 = SyntaxAnalyzer/SyntaxAnalyzer/SyntaxAnalyzer.Test
+		SccAuxPath5 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath5 = SyntaxAnalyzer\\SyntaxAnalyzer\\SyntaxAnalyzer.Test
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName6 = XmlRefactoringTest\\XmlRefactoringTest\\XmlRefactoringTest.csproj
+		SccProjectTopLevelParentUniqueName6 = RoslynDemo.sln
+		SccProjectName6 = XmlRefactoringTest/XmlRefactoringTest
+		SccAuxPath6 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath6 = XmlRefactoringTest\\XmlRefactoringTest
+		SccProvider6 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName7 = XmlRefactoring\\XmlRefactoring.csproj
+		SccProjectName7 = XmlRefactoring
+		SccAuxPath7 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath7 = XmlRefactoring
+		SccProvider7 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName8 = MultiRefactoring\\MultiRefactoring\\MultiRefactoring\\MultiRefactoring.csproj
+		SccProjectName8 = MultiRefactoring/MultiRefactoring/MultiRefactoring
+		SccAuxPath8 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath8 = MultiRefactoring\\MultiRefactoring\\MultiRefactoring
+		SccProvider8 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName9 = MultiRefactoringTest\\MultiRefactoringTest\\MultiRefactoringTest.csproj
+		SccProjectTopLevelParentUniqueName9 = RoslynDemo.sln
+		SccProjectName9 = MultiRefactoringTest/MultiRefactoringTest
+		SccAuxPath9 = https://jlattimer.visualstudio.com/defaultcollection
+		SccLocalPath9 = MultiRefactoringTest\\MultiRefactoringTest
+		SccProvider9 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal

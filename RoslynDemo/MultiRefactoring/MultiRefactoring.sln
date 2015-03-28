@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiRefactoring", "MultiRefactoring\MultiRefactoring\MultiRefactoring.csproj", "{213B1E46-7AA6-4230-88AF-4DBADEA594E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{213B1E46-7AA6-4230-88AF-4DBADEA594E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213B1E46-7AA6-4230-88AF-4DBADEA594E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213B1E46-7AA6-4230-88AF-4DBADEA594E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213B1E46-7AA6-4230-88AF-4DBADEA594E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4F0C74-7757-4D6D-9751-9336095CC9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4F0C74-7757-4D6D-9751-9336095CC9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4F0C74-7757-4D6D-9751-9336095CC9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4F0C74-7757-4D6D-9751-9336095CC9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
