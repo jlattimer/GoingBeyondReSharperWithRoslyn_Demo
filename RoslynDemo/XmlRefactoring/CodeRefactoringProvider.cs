@@ -99,7 +99,7 @@ namespace XmlRefactoring
 			string[] xmlLines = newXml.Split(new string[] { "\r\n", "\n" }, StringSplitOptions.None);
 			for (int i = 1; i < xmlLines.Length; i++)
 			{
-				xmlLines[i] = parentTrivia + new String(' ', (cSpace - 2)) + xmlLines[i];
+				xmlLines[i] = parentTrivia + new String(' ', (cSpace - 14)) + xmlLines[i];
 			}
 
 			newXml = String.Join("\r\n", xmlLines);
